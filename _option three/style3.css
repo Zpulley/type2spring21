@@ -24,7 +24,7 @@
 
 @font-face {
   font-family:'Sharp' ;
-  src: url('fonts/four/Lausanne-300.otf')format('opentype');
+  src: url('fonts/four/sharpsans-bold.otf')format('opentype');
 }
 
 @font-face {
@@ -54,11 +54,13 @@ body {
   margin-left:50px;
   margin-top:-20px;
   background-color: blue;
+
  
 }
 
 p{
   font-family: 'Lau';
+  line-height: 28px;
 }
 
 .intro {
@@ -81,13 +83,14 @@ p{
   display: flex;
   flex-direction: column;
   width:30%;
-  font-family: 'Lau';
-  font-size: 80px;
+  font-family: 'Sharp';
+  font-size: 70px;
   padding-top:20px;
   padding-left:30px;
   padding-right:30px;
   margin:0%;
   padding-top:60px;
+  line-height: 90px;
 
  
 }
@@ -125,6 +128,7 @@ p{
   border-top:none;
   margin-top:0;
   margin-right:0;
+  line-height: 35px;
 
 }
 
@@ -239,8 +243,8 @@ p{
   display:flex;
   flex-direction: row;
   flex-wrap:wrap;
- justify-content: center;
- padding-top:1.5%;
+  justify-content: center;
+  padding-top:35px;
   text-align: left;
   margin:0%;
   font-family: "Sharp";
