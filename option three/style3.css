@@ -27,6 +27,23 @@
   src: url('fonts/four/Lausanne-300.otf')format('opentype');
 }
 
+@font-face {
+  font-family:'Lau' ;
+  src: url('fonts/four/Lausanne-300.otf')format('opentype');
+}
+
+@font-face {
+  font-family:'fugue-italic' ;
+  src: url('fonts/three/fugue_italic.otf')format('opentype');
+}
+
+@font-face {
+  font-family:'fugue-head' ;
+  src: url('fonts/three/fugue_head.otf')format('opentype');
+}
+
+
+
 body {
   width: 100vw;
   height: 100vh;
@@ -41,7 +58,7 @@ body {
 }
 
 p{
-  font-family: 'Universe';
+  font-family: 'Lau';
 }
 
 .intro {
@@ -64,7 +81,7 @@ p{
   display: flex;
   flex-direction: column;
   width:30%;
-  font-family: 'Albertus';
+  font-family: 'Lau';
   font-size: 80px;
   padding-top:20px;
   padding-left:30px;
@@ -100,7 +117,7 @@ p{
   padding: 20px;
   padding-top:400px;
   text-align: left;
-  font-family: 'Sharp';
+  font-family: 'Albertus';
   border-color: black;
   border-style:solid;
   border-right: none;
