@@ -188,6 +188,7 @@ p{
 .bodyone{
   display: flex;
   flex-direction: column;
+  flex-grow: inherit;
   width:50%;
   padding-top:20px;
   padding-left:30px;
@@ -209,7 +210,18 @@ p{
 .imagetwo{
   display:flex;
   flex-direction: row;
-  max-width:48%;
+  max-width:100%;
+  padding:0px;
+  border-right:none;
+  border-bottom: none;
+  align-items: center;
+
+}
+
+figure{
+  display:flex;
+  flex-direction: column;
+  max-width:40%;
   border-color: black;
   border-style:solid;
   border-top:none;
@@ -219,6 +231,34 @@ p{
   border-bottom: none;
   align-items: center;
 
+}
+
+figcaption{
+  display:flex;
+  flex-direction: column;
+  width:128%;
+
+  justify-content: center;
+  justify-items: center;
+  padding-left:10px;
+  font-family: "universe";
+  font-size: 14px;;
+
+  border-top: 3px solid black;
+  padding-left: 70px;
+  padding-right: 70px;
+
+  height: 80px;
+  padding-top: 80px;
+  font-style: italic;
+  font-weight: 800;
+  
+
+}
+
+figcaption:hover{
+
+color:blue;
 }
 
 .pullquote {
