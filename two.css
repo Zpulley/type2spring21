@@ -64,8 +64,8 @@ p{
 
   padding:3%;
   font-family: 'Albertus';
-  font-size: 90px;
-  line-height: 100px;
+  font-size: 80px;
+  line-height: 85px;
 
 
   animation-name: flashthree;
@@ -88,11 +88,7 @@ p{
   border-left:none;
   margin:0;
   width: 60%;
-  background-image: url('images/imageone.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  overflow:scroll;
+  object-fit: contain;
  
 }
 
@@ -210,6 +206,7 @@ p{
   border-style: solid;
   border-top:none;
   margin:0;
+  
 
 }
 
@@ -289,7 +286,8 @@ figcaption{
       border-left:none;
       border-bottom:none;
       margin:0;
-      width: 60%;
+      width: 100%;
+      object-fit: contain;
     }
 
     .text2{
@@ -438,6 +436,8 @@ figcaption{
           border-bottom:none;
           margin:0;
           width: 60%;
+          object-fit:contain;
+          
         }
     
         .textfive{
